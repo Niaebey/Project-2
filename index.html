@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- ............Aos Cdn ............. -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- ............Icon Cdn ............. -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ............Custom Css Link............. -->
+     <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+
+
+    <!--............ Typed JS Cdn .............. -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--............ Typed JS Cdn .............. -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+   <script>
+     var typed = new Typed('.typerText', {
+        strings: ['Website', 'Software'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+
+
+      AOS.init(
+        {
+          offset: 80, 
+          duration: 2000,
+        }
+      );
+   </script>
+</body>
+</html>
